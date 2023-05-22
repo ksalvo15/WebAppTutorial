@@ -3,10 +3,24 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+    <script>src ="~/js/site.js"</script>
+</head>
+<body>
+    <h1>Some Music</h1>
+    <button onclick="myFunction()">Click to get rid of music</button>
 
-<div class="text-center">
-    <h1 class="display-4">Added Music</h1>
-    <p>Here is a music video</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/c6ASQOwKkhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div id="myDIV">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/c6ASQOwKkhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+
+</body>
+</html>
+
+
+
